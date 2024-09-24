@@ -50,7 +50,7 @@ body, html {
 .grid-section img {
     width: 100%;
     height: auto;
-    object-fit: cover;    BORDER-RADIUS: 50PX;
+    object-fit: cover;    BORDER-RADIUS: 15PX;
 }
 
 @media (max-width: 768px) {
