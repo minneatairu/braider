@@ -39,6 +39,21 @@ body, html {
         transform: translateX(-100%); /* Scroll all the way to the left, outside the screen */
     }
 }
+.image-container {
+    position: relative;
+    width: 100%;
+}
+.overlay-text {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    color: white;
+    padding: 5px 10px;
+    font-size: 1rem;
+    font-family: 'CustomFont', Arial, sans-serif;
+    border-radius: 5px;
+}
 
 .grid-section {
     display: grid;
