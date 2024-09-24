@@ -25,7 +25,8 @@ html {
     height: 100vh;
     text-align: center;
 }
-
+.material-symbols-outlined 
+{font-size: 5rem;}
 
 .button-section {
     display: flex;
