@@ -174,7 +174,7 @@ button {
         transform: rotate(360deg);
     }
 }
-
+span.material-symbols-outlined{font-weight: 900;}
 /* Bottom Right Modal */
 .bottom-right-modal {
     display: none;
@@ -194,17 +194,17 @@ button {
 
 .overlay-text {
     position: absolute;
-    bottom: 50px;
+    line-height: 1;
+    bottom: 20px;
     right: 20px;
-border-radius: 50%;    color: black;
+    border-radius: 50%;
+    color: black;
     padding: 15px 20px;
     font-size: 2rem;
     text-transform: uppercase;
- 
     border: 3px solid;
     background: lime;
-    animation: spin 20s linear infinite;
-    /* Slow spinning animation */
+    /* animation: spin 20s linear infinite;
 
 }
 
