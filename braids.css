@@ -123,16 +123,13 @@ div.image-container.round {
     justify-content: center;
     align-items: center;
     width: 100%;
-    /* Make the form take full width */
-    padding: 0 10px;
+    padding:  10px;
     box-sizing: border-box;
-    /* Ensure padding is included in total width */
-}
+border: 2px dashed;}
 
 .text-prompt-form input[type="text"] {
     flex: 1;
-    /* Make the input take the available space */
-
+border:none;
     padding: 10px;
     font-size: 5rem;
     border-radius: 4px;
