@@ -208,7 +208,7 @@ span.material-symbols-outlined{font-weight: 900;}
 }
 /* The spinning will be triggered when hovering over the image-container */
 .image-container:hover .overlay-text {
-    animation: spin 2s linear infinite;
+    animation: spin 5s linear infinite;
 }
 .image-container {
     position: relative;
