@@ -149,7 +149,15 @@ border:none;
 .text-prompt-form input[type="submit"]:hover {
     background-color: #0056b3;
 }
-
+/* Spinning Animation for Overlay Text */
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
 .overlay-text {
     position: absolute;
     bottom: 20px;
@@ -161,7 +169,8 @@ border:none;
     text-transform: uppercase;
     border-radius: 50%;
     border: 2px solid;
-    background: lime;
+    background: lime;    animation: spin 20s linear infinite; /* Slow spinning animation */
+
 }
 
 .grid-section {
