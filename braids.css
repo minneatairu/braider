@@ -51,11 +51,10 @@ div.image-container.round{border-radius: 50%;}
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    width: 100%; /* Make the form take full width */
+    padding: 20px;
+    box-sizing: border-box; /* Ensure padding is included in total width */
 }
-input[type="text" i] {    font-family: 'DuFont', sans-serif;}
-
-
 .text-prompt-form input[type="text"] {
     padding: 10px;
     font-size: 3rem;
