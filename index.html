@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Da' Braidr by Minne Atairu</title>
     <link rel="stylesheet" href="braids.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
+
 <body>
 
     <!-- Fullscreen Title Section -->
@@ -27,9 +30,11 @@
     <div id="myModal" class="modal">
         <div class="modal-content">
             <span class="close" id="closeModalBtn">X</span>
-            <p class="parastyle">Da' Braidr is a research engine designed to understand how Generstive AI might lead to the evolution of Black braiding processes-from identifying your hairstyle to locating a hair braider. 
+            <p class="parastyle">Da' Braidr is a research engine designed to understand how Generstive AI might lead to
+                the evolution of Black braiding processes-from identifying your hairstyle to locating a hair braider. 
                 <br><br>
-                This project by Minne Atair builds on existing hair-related Generative AI projects: Fro Studies, Box Braids Study, Blonde Braids Study, Cornrow Studies, Ribbon Studies, Beaded Briads Studies.
+                This project by Minne Atair builds on existing hair-related Generative AI projects: Fro Studies, Box
+                Braids Study, Blonde Braids Study, Cornrow Studies, Ribbon Studies, Beaded Briads Studies.
             </p>
             <video width="100%" controls>
                 <source src="v.mp4" type="video/mp4">
@@ -40,61 +45,61 @@
     <!-- Text Prompt Section -->
     <form class="text-prompt-form">
         <input type="text" id="textprompt" name="textprompt" placeholder="Describe your cornrow ">
-    <!-- Submit Button with Google Icon -->
-    <button type="submit" class="submit-button">
-        <span class="material-symbols-outlined">
-            arrow_upward
-            </span>    </button>
+        <!-- Submit Button with Google Icon -->
+        <button type="submit" class="submit-button">
+            <span class="material-symbols-outlined">
+                arrow_upward
+            </span> </button>
     </form>
- <!-- Grid Section -->
+    <!-- Grid Section -->
 
- <div class="grid-section">
-    <div class="image-container">
-        <img src="i.png" alt="Image 1">
-        <div class="overlay-text">Front</div>
+    <div class="grid-section">
+        <div class="image-container">
+            <img src="i.png" alt="Image 1">
+            <div class="overlay-text">Front</div>
+        </div>
+        <div class="image-container round">
+            <img src="i.png" alt="Image 1">
+            <div class="overlay-text">Top</div>
+        </div>
+        <div class="image-container">
+            <img src="i.png" alt="Image 1">
+            <div class="overlay-text">Back</div>
+        </div>
+        <div class="image-container">
+            <img src="i.png" alt="Image 1">
+            <div class="overlay-text">Front</div>
+        </div>
+        <div class="image-container">
+            <img src="i.png" alt="Image 1">
+            <div class="overlay-text">Top</div>
+        </div>
+        <div class="image-container">
+            <img src="i.png" alt="Image 1">
+            <div class="overlay-text">Back</div>
+        </div>
     </div>
-    <div class="image-container round">
-        <img src="i.png" alt="Image 1">
-        <div class="overlay-text">Top</div>
     </div>
-    <div class="image-container">
-        <img src="i.png" alt="Image 1">
-        <div class="overlay-text">Back</div>
-    </div>
-    <div class="image-container">
-        <img src="i.png" alt="Image 1">
-        <div class="overlay-text">Front</div>
-    </div>
-    <div class="image-container">
-        <img src="i.png" alt="Image 1">
-        <div class="overlay-text">Top</div>
-    </div>
-    <div class="image-container">
-        <img src="i.png" alt="Image 1">
-        <div class="overlay-text">Back</div>
-    </div>
-</div>
-    </div>
-  <!-- JavaScript for Modal Functionality -->
-  <script>
-    var modal = document.getElementById("myModal");
-    var openModalBtn = document.getElementById("openModalBtn");
-    var closeModalBtn = document.getElementById("closeModalBtn");
+    <!-- JavaScript for Modal Functionality -->
+    <script>
+        var modal = document.getElementById("myModal");
+        var openModalBtn = document.getElementById("openModalBtn");
+        var closeModalBtn = document.getElementById("closeModalBtn");
 
-    openModalBtn.onclick = function() {
-        modal.style.display = "block";
-    }
+        openModalBtn.onclick = function () {
+            modal.style.display = "block";
+        }
 
-    closeModalBtn.onclick = function() {
-        modal.style.display = "none";
-    }
-
-    window.onclick = function(event) {
-        if (event.target == modal) {
+        closeModalBtn.onclick = function () {
             modal.style.display = "none";
         }
-    }
-</script>
-</body>
-</html>
 
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>
