@@ -6,13 +6,7 @@
     font-weight: normal;
     font-style: normal;
 }
-@font-face {
-    font-family: 'RegFont';
-    src:
-        url('reg.ttf') format('ttf');
-    font-weight: normal;
-    font-style: normal;
-}
+
 body,
 html {
     margin: 0;
@@ -144,7 +138,7 @@ border:3px solid
 }
 
 .text-prompt-form input[type="text"] {
-      border: none;
+      border: none;background: transparent;
       font-size: 3rem;
       line-height: 1;
       font-family: "DuFont", serif;
@@ -188,11 +182,11 @@ span.material-symbols-outlined{font-weight: 900;}
     padding: 5rem;border:3px solid
 
 }
+video{border:3px solid}
 /* Two-column grid layout */
 .modal-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Two equal columns */
-    gap: 20px; /* Space between the columns */
 }
 .overlay-text {
     position: absolute;
