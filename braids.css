@@ -106,7 +106,7 @@ background: none;
         /* Scroll all the way to the left, outside the screen */
     }
 }
-.parastyle {font-size: 5rem;line-height: 1;}
+.parastyle {font-size: 5rem;line-height: 1;text-align: justify;}
 div.image-container.round {
     border-radius: 50%;
 }
