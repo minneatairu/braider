@@ -177,7 +177,7 @@ border:none;
 
 .overlay-text {
     position: absolute;
-    bottom: 20px;
+    bottom: 50px;
     right: 20px;
     /* background-color: rgba(0, 0, 0, 0.5); */
     color: black;
