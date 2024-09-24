@@ -143,13 +143,10 @@ button {
 }
 
 .text-prompt-form input[type="text"] {
-    flex: 1;
-    border: none;
-    padding: 10px;
-    font-size: 5rem;
- 
-    margin-right: 10px;
-    font-family: "DuFont", serif;
+      border: none;
+      font-size: 3rem;
+      line-height: 1;
+      font-family: "DuFont", serif;
 }
 
 .text-prompt-form input[type="submit"] {
