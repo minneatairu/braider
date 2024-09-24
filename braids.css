@@ -203,10 +203,15 @@ span.material-symbols-outlined{font-weight: 900;}
 
 
 }
-/* Trigger the spinning animation on hover */
-.overlay-text:hover {
-    animation: spin 3s linear infinite;
+/* The spinning will be triggered when hovering over the image-container */
+.image-container:hover .overlay-text {
+    animation: spin 2s linear infinite;
 }
+.image-container {
+    position: relative;
+    width: 100%;
+}
+
 .grid-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
