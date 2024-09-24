@@ -38,7 +38,7 @@ body, html {
 .grid-section img {
     width: 100%;
     height: auto;
-    object-fit: cover;
+    object-fit: cover;    BORDER-RADIUS: 50PX;
 }
 
 @media (max-width: 768px) {
