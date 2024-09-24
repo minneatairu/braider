@@ -76,7 +76,7 @@ h2{font-size: 3rem;}
 .modal-content {
     position: relative;
     background-color: white;
-    padding: 20px;
+border:3px solid
 
 }
 
@@ -134,7 +134,7 @@ h2{font-size: 3rem;}
     align-items: center;
     margin: 0 10px;
     box-sizing: border-box;
-    border: 2px solid;
+    border: 3px solid;
     border-bottom: none;
 }
 
