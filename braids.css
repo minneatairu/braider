@@ -13,7 +13,7 @@ html {
     margin: 0;
     padding: 0;
     height: 100%;
-    font-family: 'DuFont', sans-serif;
+    font-family: "Asset", serif;
     display: flex;
     flex-direction: column;
 }
@@ -51,7 +51,7 @@ button {
     color: black;
     border: 2px solid;
     cursor: pointer;
-    font-family: 'DuFont', sans-serif;
+    font-family: "Asset", serif;
     background: none;
     border-radius: 5px;
 
@@ -154,14 +154,14 @@ div.image-container.round {
     font-size: 5rem;
     border-radius: 4px;
     margin-right: 10px;
-    font-family: 'DuFont', sans-serif;
+    font-family: "Asset", serif;
 }
 
 .text-prompt-form input[type="submit"] {
     padding: 10px 20px;
     font-size: 5rem;
     border: none;
-    font-family: 'DuFont', sans-serif;
+    font-family: "Asset", serif;
     color: black;
     cursor: pointer;
     background: lime;
