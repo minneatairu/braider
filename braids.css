@@ -66,9 +66,9 @@ background: none;
 .modal-content {
     position: relative;
     background-color: white;
-    margin: 15% auto;
+
     padding: 20px;
-    width: 80%;
+
 
     border-radius: 8px;
 }
@@ -107,7 +107,7 @@ background: none;
         /* Scroll all the way to the left, outside the screen */
     }
 }
-.parastyle {font-size: 5rem;}
+.parastyle {font-size: 5rem;line-height: 1;}
 div.image-container.round {
     border-radius: 50%;
 }
