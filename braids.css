@@ -202,10 +202,14 @@ span.material-symbols-outlined{font-weight: 900;}
     text-transform: uppercase;
     border: 3px solid;
     background: lime;
-    /* animation: spin 20s linear infinite;
+    transition: transform 0.5s ease; /* Smooth transition when spinning starts */
+
 
 }
-
+/* Trigger the spinning animation on hover */
+.overlay-text:hover {
+    animation: spin 2s linear infinite;
+}
 .grid-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
