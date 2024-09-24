@@ -17,6 +17,7 @@ html {
     display: flex;
     flex-direction: column;
 }
+.chattext{font-size: 2rem;}
 
 button {
     background: transparent;
