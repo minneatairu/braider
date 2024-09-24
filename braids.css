@@ -48,11 +48,11 @@ body, html {
     bottom: 20px;
     right: 20px;
     /* background-color: rgba(0, 0, 0, 0.5); */
-    color: white;
+    color: black;
     padding: 15px 20px;
     font-size: 1rem;
 text-transform: uppercase;    border-radius: 50%;
-    border: 2px solid;
+    border: 2px solid;background: lime;
 }
 
 .grid-section {
