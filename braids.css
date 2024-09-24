@@ -1,11 +1,20 @@
 /* Load custom font using @font-face */
 @font-face {
     font-family: 'DuFont';
-    src:
-        url('bold.ttf') format('ttf');
+
+    src: url('bold.ttf') format('truetype'); /* Corrected 'ttf' format to 'truetype' */
     font-weight: normal;
     font-style: normal;
 }
+
+/* Second Font Face (Regular) */
+@font-face {
+    font-family: 'DuFontRegular';
+    src: url('reg.ttf') format('truetype'); /* Added the second font */
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 body,
 html {
@@ -142,7 +151,7 @@ border:3px solid
 .parastyle {
     font-size: 3rem;
     line-height: 1;
-    text-align: justify;font-family: 'RegFont', sans-serif;
+    text-align: justify;font-family: 'DuFontRegular', sans-serif;
 }
 
 .modal-column{padding: 5rem;}
