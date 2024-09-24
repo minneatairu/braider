@@ -133,7 +133,7 @@ div.image-container.round {
     /* Make the input take the available space */
 
     padding: 10px;
-    font-size: 3rem;
+    font-size: 5rem;
     border-radius: 4px;
     margin-right: 10px;
     font-family: 'DuFont', sans-serif;
@@ -141,7 +141,7 @@ div.image-container.round {
 
 .text-prompt-form input[type="submit"] {
     padding: 10px 20px;
-    font-size: 3rem;
+    font-size: 5rem;
     border: none;
     font-family: 'DuFont', sans-serif;
     color: black;
