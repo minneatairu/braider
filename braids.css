@@ -41,6 +41,7 @@ body, html {
         transform: translateX(-100%); /* Scroll all the way to the left, outside the screen */
     }
 }
+div.image-container.round{border-radius: 50%;}
 .image-container {
     position: relative;
     width: 100%;
