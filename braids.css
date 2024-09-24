@@ -161,9 +161,7 @@ border:3px solid
   
 }
 
-.text-prompt-form input[type="submit"]:hover {
-    background-color: #0056b3;
-}
+
 
 /* Spinning Animation for Overlay Text */
 @keyframes spin {
