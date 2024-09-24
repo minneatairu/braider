@@ -31,7 +31,7 @@ button {
     height: 100vh;
     text-align: center;
 }
-
+h2{font-size: 3rem;}
 .material-symbols-outlined {
     font-size: 5rem !important;font-weight: 800;
 }
