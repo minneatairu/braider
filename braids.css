@@ -187,7 +187,7 @@ span.material-symbols-outlined{font-weight: 900;}
 
 .bottom-right-modal-content {
     background-color: lime;
-    padding: 5rem;
+    padding: 5rem;border:3px solid
 
 }
 /* Two-column grid layout */
