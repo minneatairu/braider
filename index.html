@@ -52,10 +52,18 @@
                 <h2>WHAT IS DA BRAIDR?</h2>
                 <p class="parastyle">
          
-                    <video width="100%" controls>
+                  <!-- Custom Video Player -->
+                  <div class="video-container">
+                    <video id="customVideo" width="100%" preload="metadata">
                         <source src="v.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
+                    <!-- Custom Play and Pause Buttons -->
+                    <div class="video-controls">
+                        <button id="playButton">Play</button>
+                        <button id="pauseButton">Pause</button>
+                    </div>
+                </div>
                     <br><br>
                     TECHNICAL DESCRIPTION
                     <br>
@@ -147,6 +155,20 @@
             }
         }
     </script>
+    <script>
+        var video = document.getElementById("customVideo");
+        var playButton = document.getElementById("playButton");
+        var pauseButton = document.getElementById("pauseButton");
+    
+        playButton.onclick = function () {
+            video.play();
+        }
+    
+        pauseButton.onclick = function () {
+            video.pause();
+        }
+    </script>
+    
 </body>
 
 </html>
