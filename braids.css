@@ -26,24 +26,7 @@ html {
     text-align: center;
 }
 
-/* Modal button styling */
-.open-modal-btn {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    padding: 10px 20px;
 
-    color: black;
-    border:1px solid;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 1rem;
-}
-
-.open-modal-btn:hover {
-    background-color: #0056b3;
-}
-/* Button section styling */
 .button-section {
     display: flex;
     justify-content: center;
