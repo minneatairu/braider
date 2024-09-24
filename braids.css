@@ -208,7 +208,7 @@ span.material-symbols-outlined{font-weight: 900;}
 }
 /* Trigger the spinning animation on hover */
 .overlay-text:hover {
-    animation: spin 2s linear infinite;
+    animation: spin 3s linear infinite;
 }
 .grid-section {
     display: grid;
