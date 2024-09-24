@@ -25,7 +25,10 @@ body, html {
 }
 
 .title {
-    font-size: 8vw;
+    font-size: 20vw;
+    margin-block-end: 0;
+    line-height: 1;
+    margin-block-start: 0;
    white-space: nowrap; /* Prevents text from wrapping */
     animation: scroll-left 15s linear infinite;
 }
