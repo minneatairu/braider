@@ -33,7 +33,7 @@ button {
 }
 
 .material-symbols-outlined {
-    font-size: 5rem !important;
+    font-size: 5rem !important;font-weight: 800;
 }
 
 .button-section {
