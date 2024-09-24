@@ -158,6 +158,23 @@ border:none;
         transform: rotate(360deg);
     }
 }
+/* Bottom Right Modal */
+.bottom-right-modal {
+    display: none;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 2;
+}
+
+.bottom-right-modal-content {
+    background-color: lime;
+    padding: 15px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 .overlay-text {
     position: absolute;
     bottom: 20px;
