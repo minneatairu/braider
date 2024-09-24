@@ -1,13 +1,18 @@
 /* Load custom font using @font-face */
 @font-face {
     font-family: 'DuFont';
-    /* Name to reference the font */
     src:
-        url('bold.ttf') format('woff');
+        url('bold.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
 }
-
+@font-face {
+    font-family: 'RegFont';
+    src:
+        url('reg.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
 body,
 html {
     margin: 0;
@@ -117,7 +122,7 @@ border:3px solid
 .parastyle {
     font-size: 3rem;
     line-height: 1;
-    text-align: justify;font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;font-family: 'RegFont', sans-serif;
 }
 
 .modal-column{padding: 5rem;}
