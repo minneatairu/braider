@@ -21,11 +21,23 @@ body, html {
     align-items: center;
     justify-content: center;
     text-align: center;
+    overflow: hidden; /* Important to hide the text that scrolls out of view */
+
 }
 
 .title {
     font-size: 5rem;
-    font-weight: bold;
+   white-space: nowrap; /* Prevents text from wrapping */
+    animation: scroll-left 10s linear infinite;
+}
+/* Infinite scrolling animation */
+@keyframes scroll-left {
+    0% {
+        transform: translateX(100%); /* Start outside the screen from the right */
+    }
+    100% {
+        transform: translateX(-100%); /* Scroll all the way to the left, outside the screen */
+    }
 }
 
 .grid-section {
