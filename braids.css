@@ -26,7 +26,7 @@ body, html {
 }
 
 .title {
-    font-size: 10rem;
+    font-size: 8vw;
    white-space: nowrap; /* Prevents text from wrapping */
     animation: scroll-left 15s linear infinite;
 }
@@ -68,14 +68,24 @@ text-transform: uppercase;    border-radius: 50%;
     object-fit: cover;    BORDER-RADIUS: 15PX;
 }
 
+/* Media query for tablets */
 @media (max-width: 768px) {
     .grid-section {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .title {
+        font-size: 12vw; /* Increase font size for smaller screens */
+    }
 }
 
+/* Media query for mobile */
 @media (max-width: 480px) {
     .grid-section {
         grid-template-columns: 1fr;
+    }
+
+    .title {
+        font-size: 15vw; /* Further increase font size on very small screens */
     }
 }
