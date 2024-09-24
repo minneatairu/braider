@@ -55,7 +55,8 @@ div.image-container.round{border-radius: 50%;}
     padding: 20px;
     box-sizing: border-box; /* Ensure padding is included in total width */
 }
-.text-prompt-form input[type="text"] {
+.text-prompt-form input[type="text"] {    flex: 1; /* Make the input take the available space */
+
     padding: 10px;
     font-size: 3rem;
     border-radius: 4px;
