@@ -40,7 +40,7 @@ html {
     border: none;
     color: black;border:1px solid;
     cursor: pointer;    font-family: 'DuFont', sans-serif;
-
+background: none;
     border-radius: 5px;
 
 }
