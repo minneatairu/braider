@@ -1,9 +1,17 @@
 
+/* Load custom font using @font-face */
+@font-face {
+    font-family: 'DuFont'; /* Name to reference the font */
+    src: 
+         url('bold.woff') format('woff');    font-weight: normal;
+    font-style: normal;
+}
+
 body, html {
     margin: 0;
     padding: 0;
     height: 100%;
-    font-family: Arial, sans-serif;
+    font-family: 'DuFont', sans-serif;
     display: flex;
     flex-direction: column;
 }
@@ -12,8 +20,6 @@ body, html {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    background-color: #f2f2f2;
     text-align: center;
 }
 
