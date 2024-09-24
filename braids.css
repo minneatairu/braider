@@ -30,7 +30,7 @@ body, html {
     line-height: 1;
     margin-block-start: 0;
    white-space: nowrap; /* Prevents text from wrapping */
-    animation: scroll-left 15s linear infinite;
+    animation: scroll-left 55s linear infinite;
 }
 /* Infinite scrolling animation */
 @keyframes scroll-left {
