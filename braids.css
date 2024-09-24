@@ -47,14 +47,12 @@ button {
 }
 
 .button-section button {
-    padding: 5px;
     font-size: 3rem;
     color: black;
     cursor: pointer;
     font-family: "DuFont", serif;
     background: none;
     text-transform: uppercase;
-    padding-top: 10px;
 
 }
 
