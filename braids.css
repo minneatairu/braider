@@ -22,7 +22,6 @@ body, html {
     justify-content: center;
     height: 100vh;
     text-align: center;
-    overflow: hidden; /* Important to hide the text that scrolls out of view */
 }
 
 .title {
