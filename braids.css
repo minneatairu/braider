@@ -17,7 +17,7 @@ html {
     display: flex;
     flex-direction: column;
 }
-
+button{background: transparent;border: none;}
 .title-section {
     display: flex;
     align-items: center;
@@ -26,7 +26,7 @@ html {
     text-align: center;
 }
 .material-symbols-outlined 
-{font-size: 5rem;}
+{  font-size: 5rem !important;}
 
 .button-section {
     display: flex;
