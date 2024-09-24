@@ -123,9 +123,9 @@ div.image-container.round {
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding:  10px;
+ margin:  10px;
     box-sizing: border-box;
-border: 2px dashed;}
+border: 2px solid;}
 
 .text-prompt-form input[type="text"] {
     flex: 1;
