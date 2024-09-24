@@ -31,7 +31,7 @@ button{background: transparent;border: none;cursor: pointer;}
 .button-section {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 10px;    z-index: 10;
     padding-bottom: 10px ;
 }
 
