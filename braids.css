@@ -122,7 +122,7 @@ button {
 /* Infinite scrolling animation */
 @keyframes scroll-left {
     0% {
-        transform: translateX(0%);
+        transform: translateX(100%);
         /* Start outside the screen from the right */
     }
 
