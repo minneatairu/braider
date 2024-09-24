@@ -71,13 +71,11 @@ h2{font-size: 3rem;}
 }
 
 /* Modal Content */
+
 .modal-content {
     position: relative;
     background-color: white;
-
     padding: 20px;
-
-
 
 }
 
