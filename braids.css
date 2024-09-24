@@ -26,9 +26,9 @@ body, html {
 }
 
 .title {
-    font-size: 5rem;
+    font-size: 10rem;
    white-space: nowrap; /* Prevents text from wrapping */
-    animation: scroll-left 10s linear infinite;
+    animation: scroll-left 15s linear infinite;
 }
 /* Infinite scrolling animation */
 @keyframes scroll-left {
