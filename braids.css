@@ -20,9 +20,10 @@ body, html {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100vh;
+    background-color: #f2f2f2;
     text-align: center;
     overflow: hidden; /* Important to hide the text that scrolls out of view */
-
 }
 
 .title {
