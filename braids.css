@@ -136,10 +136,10 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-
     margin: 0 10px;
     box-sizing: border-box;
-    border: 3px solid;
+    border: 2px solid;
+    border-bottom: none;
 }
 
 .text-prompt-form input[type="text"] {
