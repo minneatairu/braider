@@ -44,14 +44,14 @@ button {
 }
 
 .button-section button {
-    padding: 5px 20px;
-    font-size: 4rem;
+    padding: 5px;
+    font-size: 3rem;
     color: black;
     cursor: pointer;
     font-family: "DuFont", serif;
     background: none;
     text-transform: uppercase;
-    line-height: 0.8;
+    padding-top: 10px;
 
 }
 
