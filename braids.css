@@ -59,18 +59,7 @@ button {
 .video-controls button:hover {
     background-color: #0056b3;
 }
-.title-section {
-    border: 3px solid;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    overflow: hidden;
-    text-align: center;
-    margin: 10px 10px 0 10px;
 
-    border-bottom: 0;
-}
 h2{font-size: 3rem;}
 .material-symbols-outlined {
     font-size: 5rem !important;font-weight: 800;
@@ -129,29 +118,7 @@ border:3px solid
     cursor: pointer;
 }
 
-.title {
-    font-size: 10vw;
-    margin-block-end: 0;
-    line-height:1;
-    margin-block-start: 0;
-    white-space: nowrap;
-    animation: scroll-left 55s linear infinite;
-    position: relative;
-}
 
-
-/* Infinite scrolling animation */
-@keyframes scroll-left {
-    0% {
-        transform: translateX(0%);
-        /* Start outside the screen from the right */
-    }
-
-    100% {
-        transform: translateX(-100%);
-        /* Scroll all the way to the left, outside the screen */
-    }
-}
 
 .parastyle {
     font-size: 3rem;
@@ -289,5 +256,45 @@ video{border:3px solid}
     .title {
         font-size: 15vw;
         /* Further increase font size on very small screens */
+    }
+}
+
+.title-section {
+    border: 3px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px; /* Padding for space around the title */
+    overflow: hidden; /* Ensure content stays within bounds */
+    text-align: center;
+    margin: 10px 10px 0 10px;
+    box-sizing: border-box;
+    height: 100px; /* Fixed height to ensure consistency */
+    position: relative; /* Required for the scrolling effect */
+}
+
+.title-wrapper {
+    display: flex; /* Allow the text to scroll horizontally */
+    white-space: nowrap; /* Ensure text stays on a single line */
+    animation: scroll-left 20s linear infinite;
+}
+
+.title {
+    font-size: 10vw;
+    line-height: 1;
+    padding-right: 100px; /* Space between the duplicated text */
+    white-space: nowrap;
+    display: inline-block;
+    position: relative;
+}
+
+/* Infinite scrolling animation */
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0); /* Start fully visible */
+    }
+
+    100% {
+        transform: translateX(-100%); /* End where the second text starts */
     }
 }
