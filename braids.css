@@ -43,6 +43,24 @@ html {
 .open-modal-btn:hover {
     background-color: #0056b3;
 }
+/* Button section styling */
+.button-section {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px 0;
+}
+
+.button-section button {
+    padding: 10px 20px;
+    font-size: 5rem;
+    border: none;
+    color: black;border:1px solid;
+    cursor: pointer;    font-family: 'DuFont', sans-serif;
+
+    border-radius: 5px;
+
+}
 
 /* The Modal (background) */
 .modal {
