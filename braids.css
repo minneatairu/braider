@@ -254,8 +254,7 @@ video {
     border: 2px solid;
     background: lime;
     transition: transform 0.5s ease;
-    /* Smooth transition when spinning starts */
-
+z-index: 90;
 
 }
 
