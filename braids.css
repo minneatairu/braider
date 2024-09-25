@@ -15,20 +15,25 @@
 }
 
 @media print {
+
     /* Hide elements that shouldn't appear in the print */
     .print-button,
     div.button-section,
     form.text-prompt-form,
     .video-container {
-      display: none !important;
+        display: none !important;
     }
-    .overlay-text{font-size: .8rem;}
-    /* Ensure only the grid section and title are visible */
+
+    .overlay-text {
+        font-size: .8rem;
+    }
+
     .title-section,
     .grid-section {
-      display: block;
+        display: block;
     }
-}  
+}
+
 /* Custom checkbox */
 input[type="checkbox"] {
     /* Hide the default checkbox */
@@ -43,21 +48,21 @@ input[type="checkbox"] {
     display: inline-block;
     vertical-align: middle;
     background-color: white;
-  }
-  
-  input[type="checkbox"]:checked {
+}
+
+input[type="checkbox"]:checked {
     background-color: black;
-  }
-  
-  input[type="checkbox"]:checked:after {
+}
+
+input[type="checkbox"]:checked:after {
     content: 'X';
     color: white;
     display: inline-block;
     text-align: center;
     font-size: 14px;
-  padding-left: 2PX;
-  }
-  
+    padding-left: 2PX;
+}
+
 
 body,
 html {
@@ -133,11 +138,15 @@ h2 {
     text-transform: uppercase;
     line-height: 1;
     z-index: 50;
-    border: 2px solid;text-align: center;
+    border: 2px solid;
+    text-align: center;
     margin: 0 10px;
-    border-bottom: none;     display: flex; /* Use flexbox to distribute space between buttons */
-    justify-content: space-between; /* Evenly space the buttons */
-    align-items: center; 
+    border-bottom: none;
+    display: flex;
+    /* Use flexbox to distribute space between buttons */
+    justify-content: space-between;
+    /* Evenly space the buttons */
+    align-items: center;
 }
 
 .button-section button {
@@ -149,7 +158,7 @@ h2 {
     text-transform: uppercase;
     line-height: 1;
     padding-top: 10px;
-   width: 100%;
+    width: 100%;
 
 }
 
@@ -163,23 +172,29 @@ h2 {
     top: 0;
     width: 100%;
     overflow: auto;
-    height: 100%;  opacity: 0;
-   
+    height: 100%;
+    opacity: 0;
+
     transition: opacity 0.4s ease, transform 0.4s ease;
 
 }
+
 /* Show modal with smooth animation */
 .modal.show {
-    display: flex; /* Change from none to flex */
+    display: flex;
+    /* Change from none to flex */
     opacity: 1;
 
-  }
+}
+
 .callbraid {
     font-size: 3rem;
     margin: 0 10px;
-    border-bottom: none;    animation: scroll-left 30s linear infinite;
+    border-bottom: none;
+    animation: scroll-left 30s linear infinite;
 
-    border: 2px solid;padding: 0 10px
+    border: 2px solid;
+    padding: 0 10px
 }
 
 /* Modal Content */
@@ -217,7 +232,11 @@ h2 {
     position: relative;
     width: 100%;
 }
-button.submit-button{width: 100%;}
+
+button.submit-button {
+    width: 100%;
+}
+
 /* Align the form inputs in a row */
 .text-prompt-form {
     display: flex;
@@ -226,7 +245,8 @@ button.submit-button{width: 100%;}
     margin: 0 10px;
     box-sizing: border-box;
     border: 2px solid;
-    border-bottom: none;text-align: center;
+    border-bottom: none;
+    text-align: center;
 }
 
 .text-prompt-form input[type="text"] {
@@ -235,7 +255,8 @@ button.submit-button{width: 100%;}
     font-size: 3rem;
     line-height: 1;
     font-family: "DuFont", serif;
-   padding-top: 10px;text-align: center;
+    padding-top: 10px;
+    text-align: center;
 }
 
 .text-prompt-form input[type="submit"] {
@@ -273,7 +294,7 @@ span.material-symbols-outlined {
     right: 20px;
     bottom: 20px;
     width: 30%;
-    z-index: 2; 
+    z-index: 2;
 
     transition: opacity 0.4s ease, transform 0.4s ease;
 }
@@ -316,9 +337,10 @@ span.material-symbols-outlined {
     border: 2px solid;
     background: lime;
     transition: transform 0.5s ease;
-z-index: 90;
+    z-index: 90;
 
 }
+
 .print-button {
     position: fixed;
     top: 20px;
@@ -330,14 +352,16 @@ z-index: 90;
     border-radius: 50%;
     font-size: 1.5rem;
     cursor: pointer;
-    display: none; /* Initially hidden */
-    z-index: 1000;border:2px solid
-  }
-  
-  .print-button:hover {
+    display: none;
+    /* Initially hidden */
+    z-index: 1000;
+    border: 2px solid
+}
+
+.print-button:hover {
     background-color: darkgray;
-  }
-  
+}
+
 /* The spinning will be triggered when hovering over the image-container */
 .image-container:hover .overlay-text {
     animation: spin 5s linear infinite;
@@ -349,7 +373,7 @@ z-index: 90;
 }
 
 .grid-section {
-    display: grid; 
+    display: grid;
     opacity: 0;
     transition: opacity 0.5s ease;
     grid-template-columns: repeat(3, 1fr);
@@ -360,6 +384,7 @@ z-index: 90;
 .video-container {
     transition: opacity 0.5s ease;
 }
+
 .grid-section img {
     width: 100%;
     height: auto;
@@ -374,7 +399,7 @@ z-index: 90;
         grid-template-columns: repeat(2, 1fr);
     }
 
-  
+
 }
 
 /* Media query for mobile */
@@ -383,38 +408,48 @@ z-index: 90;
         grid-template-columns: 1fr;
     }
 
- 
+
 }
 
 .title-section {
     border: 2px solid;
     margin: 10px 10px 0 10px;
 
-        overflow: hidden;
-        white-space: nowrap;
-        padding-bottom: 8vw;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-bottom: 8vw;
     border-bottom: none;
 
 }
 
 .title-wrapper {
-    height: 8vw;    display: inline-block;
+    height: 8vw;
+    display: inline-block;
     white-space: nowrap;
 }
 
 .title {
     font-size: 9vw;
-    line-height: 1.1;  animation: scroll 90s linear infinite;  display: inline-block;
+    line-height: 1.1;
+    animation: scroll 90s linear infinite;
+    display: inline-block;
 
 }
 
 /* Infinite scrolling animation */
-@keyframes scroll{
-    0% {transform: translateX(0%);}
-    100% {transform: translateX(-50%);}
+@keyframes scroll {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
 }
+
 .file-upload {
-    display: none; /* Hide the default file input */
+    display: none;
+    /* Hide the default file input */
 }
 
 .upload-button {
@@ -422,7 +457,7 @@ z-index: 90;
     height: 40vw;
     border-radius: 50%;
     font-family: "Kode Mono", monospace;
-background: lime;
+    background: lime;
     font-size: 1.3rem;
     display: flex;
     align-items: center;
@@ -430,5 +465,8 @@ background: lime;
     cursor: pointer;
     border: 2px solid;
 }
-label{    font-family: "Kode Mono", monospace;    font-size: 1.3rem;
+
+label {
+    font-family: "Kode Mono", monospace;
+    font-size: 1.3rem;
 }
