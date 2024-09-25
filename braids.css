@@ -119,7 +119,9 @@ h2 {
     z-index: 50;
     border: 2px solid;
     margin: 0 10px;
-    border-bottom: none
+    border-bottom: none;     display: flex; /* Use flexbox to distribute space between buttons */
+    justify-content: space-between; /* Evenly space the buttons */
+    align-items: center; 
 }
 
 .button-section button {
