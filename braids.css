@@ -327,13 +327,6 @@ video {
 
 /* Infinite scrolling animation */
 @keyframes scroll-left {
-    0% {
-        transform: translateX(0);
-        /* Start fully visible */
-    }
-
-    100% {
-        transform: translateX(-100%);
-        /* End where the second text starts */
-    }
+    0% {transform: translateX(0%);}
+    100% {transform: translateX(-50%);}
 }
