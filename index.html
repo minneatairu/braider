@@ -244,14 +244,22 @@ window.onclick = function (event) {
 }
 
 
-        var videoContainer = document.querySelector(".video-container");
+var videoContainer = document.querySelector(".video-container");
 var gridSection = document.querySelector(".grid-section");
 var generateButton = document.querySelector(".submit-button");
+var textPromptForm = document.querySelector(".text-prompt-form");
 
-generateButton.addEventListener("click", function(event) {
-    event.preventDefault(); // Prevent form submission
+textPromptForm.addEventListener("submit", function(event) {
+    event.preventDefault(); // Prevent the default form submission action
 
-    // Fade out the video
+    // Submit the form using JavaScript (you can replace this with an actual submission process)
+    // This simulates form submission; in a real scenario, you would handle the form data here
+    var formData = new FormData(textPromptForm);
+
+    // Example: Log form data for demonstration (replace this with actual submission logic)
+    console.log("Form submitted. Data: ", formData.get('textprompt'));
+
+    // Hide the video smoothly
     videoContainer.style.opacity = "0";
 
     // Wait for the fade-out to finish before hiding the video and showing the grid
@@ -263,6 +271,7 @@ generateButton.addEventListener("click", function(event) {
         }, 50); // Delay to ensure display change takes effect
     }, 500); // Delay matches the transition duration (0.5s)
 });
+
 
     </script>
 
