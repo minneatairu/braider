@@ -125,7 +125,8 @@ h2 {
 .callbraid {
     font-size: 3rem;
     margin: 0 10px;
-    border-bottom: none;
+    border-bottom: none;    animation: scroll-left 30s linear infinite;
+
     border: 2px solid;padding: 0 10px
 }
 
