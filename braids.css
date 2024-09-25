@@ -129,10 +129,9 @@ h2 {
 /* Close button (X) */
 .close {
     position: absolute;
-    top: 20px;
-    right: 20px;
-    font-size: 3rem;
-    font-weight: bold;
+    top: 10px;
+    right: 10px;
+    font-size: 2rem;
     cursor: pointer;
 }
 
