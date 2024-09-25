@@ -18,7 +18,7 @@
             <span class="title">DA BRAIDR</span>
         </div>
     </div>
-    
+
 
     <!-- Button Section -->
     <div class="button-section">
@@ -27,64 +27,78 @@
         <button id="openShareModal">Share ur Data</button>
 
     </div>
-<!-- Modal -->
-<div id="myModal" class="modal">
-    <div class="modal-content">
-        <span class="close" id="closeModalBtn">X</span>
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeModalBtn">X</span>
 
- 
-        <div class="modal-grid">
-            <div class="modal-column" style="border-right: 2px solid;">
-                <h2>WHAT IS DA BRAIDR?</h2>
-                <p class="parastyle">
-                    Da Braidr is a multimodal research engine designed to understand the impact of Generative AI on
-                    Black braiding communities. Begin by describing your imagined hairstyle in a text prompt.
-                    Da Braidr will translate your description into a visual representation, alongside an analysis of the braid pattern, and structure. Finally,
-                    text Da Braidr to connect you with an expert who will realize your AI-generated braids.
-                    <br><br>
-                    This art project, led by Minne Atairu builds on existing hair-related Generative AI projects: Fro Studies (2022),
-                    Box Braids Study (2022), Blonde Braids Study (2022), Cornrow Studies (2022), Ribbon Studies (2022), Beaded
-                    Braids Studies (2022).
-                </p>
-            </div>
 
-            <div class="modal-column">
-         <h2>   TECHNICAL DESCRIPTION</h2>
+            <div class="modal-grid">
+                <div class="modal-column" style="border-right: 2px solid;">
+                    <h2>WHAT IS DA BRAIDR?</h2>
                     <p class="parastyle">
-                    Da Braidr leverages the vision-language capabilities of OpenAI models, fine-tuned specifically for the
-                    task of braid pattern recognition. The system's vision model is fine-tuned using
-                    open-source datasets that prominently feature braids on Black folks. To enrich the dataset, I have created a
-                    portal to receive human-contributed, real-world image data. I do not currently accept synthetic data. All image submissions are analyzed to verify their origin.
-                </p>
-          
-                <h2> REFERENCES</h2>
+                        Da Braidr is a multimodal research engine designed to understand the impact of Generative AI on
+                        Black braiding communities. Begin by describing your imagined hairstyle in a text prompt.
+                        Da Braidr will translate your description into a visual representation, alongside an analysis of
+                        the braid pattern, and structure. Finally,
+                        text Da Braidr to connect you with an expert who will realize your AI-generated braids.
+                        <br><br>
+                        This art project, led by Minne Atairu builds on existing hair-related Generative AI projects:
+                        Fro Studies (2022),
+                        Box Braids Study (2022), Blonde Braids Study (2022), Cornrow Studies (2022), Ribbon Studies
+                        (2022), Beaded
+                        Braids Studies (2022).
+                    </p>
+                </div>
+
+                <div class="modal-column">
+                    <h2> TECHNICAL DESCRIPTION</h2>
+                    <p class="parastyle">
+                        Da Braidr leverages the vision-language capabilities of OpenAI models, fine-tuned specifically
+                        for the
+                        task of braid pattern recognition. The system's vision model is fine-tuned using
+                        open-source datasets that prominently feature braids on Black folks. To enrich the dataset, I
+                        have created a
+                        portal to receive human-contributed, real-world image data. I do not currently accept synthetic
+                        data. All image submissions are analyzed to verify their origin.
+                    </p>
+
+                    <h2> REFERENCES</h2>
+                </div>
             </div>
         </div>
     </div>
-</div>
-   <!-- Share Modal (New Modal for "Share ur Data") -->
-   <div id="shareModal" class="modal">
-    <div class="modal-content">
-        <span class="close" id="closeShareModal">X</span>
-        <h2>Share Your Data</h2>
-        <p class="parastyle">
-            You are invited to contribute to Da Braidr’s research by sharing your braid images or other relevant data. Please upload your data here to help enhance our dataset and improve braid pattern recognition.
-        </p>
-        <form>
-            <label for="file-upload" class="parastyle">Upload your data:</label>
-            <input type="file" id="file-upload" name="file-upload" accept="image/*">
-            <br><br>
-            <button type="submit" class="submit-button">Submit Data</button>
-        </form>
+    <!-- Share Modal (New Modal for "Share ur Data") -->
+    <div id="shareModal" class="modal">
+        <div class="modal-content">                <span class="close" id="closeShareModal">X</span>
+
+            <div class="modal-grid">
+            <div class="modal-column" style="border-right: 2px solid;">
+        
+            <h2>Share Your Data</h2>
+            <p class="parastyle">
+                You are invited to contribute to Da Braidr’s research by sharing your braid images or other relevant
+                data. Please upload your data here to help enhance our dataset and improve braid pattern recognition.
+            </p>
+            </div>
+            <div class="modal-column">
+            <form>
+                <label for="file-upload" class="parastyle">Upload your data:</label>
+                <input type="file" id="file-upload" name="file-upload" accept="image/*">
+                <br><br>
+                <button type="submit" class="submit-button">Submit Data</button>
+            </form>
+            </div></div>
+        </div>
     </div>
-</div>
 
 
-       <!-- Modal for the bottom right corner -->
-       <div id="bottomRightModal" class="bottom-right-modal">
+    <!-- Modal for the bottom right corner -->
+    <div id="bottomRightModal" class="bottom-right-modal">
         <div class="bottom-right-modal-content">
             <span class="close" id="closeBottomRightModalBtn">X</span>
-            <p class="chattext">Welcome to Da Braidr! Here's more information in a modal from the bottom right corner.</p>
+            <p class="chattext">Welcome to Da Braidr! Here's more information in a modal from the bottom right corner.
+            </p>
         </div>
     </div>
 
@@ -95,7 +109,7 @@
         <button type="submit" class="submit-button" STYLE="
         FONT-SIZE: 3REM;
         BORDER-LEFT: 2px SOLID;">
-          GENERATE </button>
+            GENERATE </button>
     </form>
     <!-- Grid Section -->
 
@@ -126,57 +140,57 @@
         </div>
     </div>
     </div>
-  <!-- JavaScript for Modal Functionality -->
-  <script>
-    var modal = document.getElementById("myModal");
-    var openModalBtn = document.getElementById("openModalBtn");
-    var closeModalBtn = document.getElementById("closeModalBtn");
+    <!-- JavaScript for Modal Functionality -->
+    <script>
+        var modal = document.getElementById("myModal");
+        var openModalBtn = document.getElementById("openModalBtn");
+        var closeModalBtn = document.getElementById("closeModalBtn");
 
-    var shareModal = document.getElementById("shareModal"); // New modal
-    var openShareModalBtn = document.getElementById("openShareModal"); // New button
-    var closeShareModalBtn = document.getElementById("closeShareModal"); // Close button for new modal
+        var shareModal = document.getElementById("shareModal"); // New modal
+        var openShareModalBtn = document.getElementById("openShareModal"); // New button
+        var closeShareModalBtn = document.getElementById("closeShareModal"); // Close button for new modal
 
-    var titleModal = document.getElementById("bottomRightModal");
-    var openTitleModalBtn = document.getElementById("openTitleModal");
-    var closeBottomRightModalBtn = document.getElementById("closeBottomRightModalBtn");
+        var titleModal = document.getElementById("bottomRightModal");
+        var openTitleModalBtn = document.getElementById("openTitleModal");
+        var closeBottomRightModalBtn = document.getElementById("closeBottomRightModalBtn");
 
-    // Open and close the Info modal
-    openModalBtn.onclick = function () {
-        modal.style.display = "block";
-    }
+        // Open and close the Info modal
+        openModalBtn.onclick = function () {
+            modal.style.display = "block";
+        }
 
-    closeModalBtn.onclick = function () {
-        modal.style.display = "none";
-    }
-
-    // Open and close the "Share ur Data" modal
-    openShareModalBtn.onclick = function () {
-        shareModal.style.display = "block";
-    }
-
-    closeShareModalBtn.onclick = function () {
-        shareModal.style.display = "none";
-    }
-
-    // Open and close the bottom-right modal
-    openTitleModalBtn.onclick = function () {
-        titleModal.style.display = "block";
-    }
-
-    closeBottomRightModalBtn.onclick = function () {
-        titleModal.style.display = "none";
-    }
-
-    // Close modals if clicking outside them
-    window.onclick = function (event) {
-        if (event.target == modal) {
+        closeModalBtn.onclick = function () {
             modal.style.display = "none";
-        } else if (event.target == shareModal) {
+        }
+
+        // Open and close the "Share ur Data" modal
+        openShareModalBtn.onclick = function () {
+            shareModal.style.display = "block";
+        }
+
+        closeShareModalBtn.onclick = function () {
             shareModal.style.display = "none";
         }
-    }
-</script>
-    
+
+        // Open and close the bottom-right modal
+        openTitleModalBtn.onclick = function () {
+            titleModal.style.display = "block";
+        }
+
+        closeBottomRightModalBtn.onclick = function () {
+            titleModal.style.display = "none";
+        }
+
+        // Close modals if clicking outside them
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            } else if (event.target == shareModal) {
+                shareModal.style.display = "none";
+            }
+        }
+    </script>
+
 </body>
 
 </html>
