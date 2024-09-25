@@ -235,7 +235,7 @@ button.submit-button{width: 100%;}
     font-size: 3rem;
     line-height: 1;
     font-family: "DuFont", serif;
-    margin-bottom: -10px;
+   padding-top: 10px;text-align: center;
 }
 
 .text-prompt-form input[type="submit"] {
