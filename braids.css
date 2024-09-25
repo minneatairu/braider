@@ -94,7 +94,7 @@ h2{font-size: 3rem;}
 .modal {
     display: none;
     position: fixed;
-    z-index: 30;
+    z-index: 100;
     /* Sit on top */
     left: 0;
     top: 0;
