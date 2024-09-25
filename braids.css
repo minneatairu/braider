@@ -314,7 +314,7 @@ z-index: 90;
 }
 
 .grid-section {
-    display: grid; 
+    display: grid!important; 
     opacity: 0;
     transition: opacity 0.5s ease;
     grid-template-columns: repeat(3, 1fr);
