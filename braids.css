@@ -304,7 +304,25 @@ span.material-symbols-outlined {
 z-index: 90;
 
 }
-
+.print-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: none; /* Initially hidden */
+    z-index: 1000; /* Ensure it stays on top */
+  }
+  
+  .print-button:hover {
+    background-color: darkgray;
+  }
+  
 /* The spinning will be triggered when hovering over the image-container */
 .image-container:hover .overlay-text {
     animation: spin 5s linear infinite;

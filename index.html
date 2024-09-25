@@ -19,6 +19,7 @@
                 BRAIDR DA BRAIDR DA BRAIDR DA BRAIDR DA BRAIDR DA BRAIDR </span>
         </div>
     </div>
+    <button id="printButton" class="print-button">Print Braids</button>
 
     <!-- Button Section -->
     <div class="button-section">
@@ -248,12 +249,12 @@ var videoContainer = document.querySelector(".video-container");
 var gridSection = document.querySelector(".grid-section");
 var generateButton = document.querySelector(".submit-button");
 var textPromptForm = document.querySelector(".text-prompt-form");
+var printButton = document.getElementById("printButton"); // Print button
 
 textPromptForm.addEventListener("submit", function(event) {
     event.preventDefault(); // Prevent the default form submission action
 
     // Submit the form using JavaScript (you can replace this with an actual submission process)
-    // This simulates form submission; in a real scenario, you would handle the form data here
     var formData = new FormData(textPromptForm);
 
     // Example: Log form data for demonstration (replace this with actual submission logic)
@@ -268,8 +269,16 @@ textPromptForm.addEventListener("submit", function(event) {
         gridSection.style.display = "block"; // Show the grid section
         setTimeout(function() {
             gridSection.style.opacity = "1"; // Fade in the grid section
+
+            // Show the "Print Braids" button
+            printButton.style.display = "block"; // Make the print button visible
         }, 50); // Delay to ensure display change takes effect
     }, 500); // Delay matches the transition duration (0.5s)
+});
+
+// Add event listener to the print button to trigger print function
+printButton.addEventListener("click", function() {
+    window.print(); // Trigger the print dialog
 });
 
 
