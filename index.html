@@ -277,7 +277,7 @@ textPromptForm.addEventListener("submit", function(event) {
             gridSection.style.opacity = "1"; // Fade in the grid section
 
             // Show the "Print Braids" button
-            printButton.style.display = "block"; // Make the print button visible
+            printButton.classList.add("show"); // Add the 'show' class for smooth appearance
         }, 50); // Delay to ensure display change takes effect
     }, 500); // Delay matches the transition duration (0.5s)
 });
