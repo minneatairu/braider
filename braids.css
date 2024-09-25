@@ -146,8 +146,7 @@ h2 {
     line-height: 1;
     text-align: justify;
     font-family: "Kode Mono", monospace;
-    margin-block-start: 0;
-    margin-block-end:0;
+
 }
 
 .modal-column {
