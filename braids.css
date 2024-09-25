@@ -290,10 +290,7 @@ video {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .title {
-        font-size: 12vw;
-        /* Increase font size for smaller screens */
-    }
+  
 }
 
 /* Media query for mobile */
@@ -302,10 +299,7 @@ video {
         grid-template-columns: 1fr;
     }
 
-    .title {
-        font-size: 15vw;
-        /* Further increase font size on very small screens */
-    }
+ 
 }
 
 .title-section {
