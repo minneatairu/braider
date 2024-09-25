@@ -45,16 +45,14 @@ button {
     background-color: lime;
     color: black;
     font-family: "DuFont", serif;
-    padding: 10px 20px;
+
 
     border: 3px solid;
     cursor: pointer;
     font-size: 2rem;
 }
 
-.video-controls button:hover {
-    background-color: #0056b3;
-}
+
 button{font-family:    "DuFont", serif;}
 h2{font-size: 3rem;line-height: .8;}
 .material-symbols-outlined {
