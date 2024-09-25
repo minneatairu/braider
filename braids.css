@@ -266,19 +266,12 @@ box-sizing: border-box;
     position: relative; border-bottom: none;
 }
 
-.title-wrapper {
-    display: flex; /* Allow the text to scroll horizontally */
-    white-space: nowrap; /* Ensure text stays on a single line */
-    animation: scroll-left 20s linear infinite;
-}
+
 
 .title {
     font-size: 10vw;
     line-height: 1;
-    padding-right: 100px; /* Space between the duplicated text */
-    white-space: nowrap;
-    display: inline-block;
-    position: relative;
+
 }
 
 /* Infinite scrolling animation */
