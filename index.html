@@ -272,7 +272,7 @@ textPromptForm.addEventListener("submit", function(event) {
     // Wait for the fade-out to finish before hiding the video and showing the grid
     setTimeout(function() {
         videoContainer.style.display = "none"; // Hide the video container
-        gridSection.style.display = "block"; // Show the grid section
+        gridSection.style.display = "grid"; // Show the grid section
         setTimeout(function() {
             gridSection.style.opacity = "1"; // Fade in the grid section
 
