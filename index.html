@@ -215,6 +215,27 @@
                 shareModal.style.display = "none";
             }
         }
+
+        var videoContainer = document.querySelector(".video-container");
+var gridSection = document.querySelector(".grid-section");
+var generateButton = document.querySelector(".submit-button");
+
+generateButton.addEventListener("click", function(event) {
+    event.preventDefault(); // Prevent form submission
+
+    // Fade out the video
+    videoContainer.style.opacity = "0";
+
+    // Wait for the fade-out to finish before hiding the video and showing the grid
+    setTimeout(function() {
+        videoContainer.style.display = "none"; // Hide the video container
+        gridSection.style.display = "block"; // Show the grid section
+        setTimeout(function() {
+            gridSection.style.opacity = "1"; // Fade in the grid section
+        }, 50); // Delay to ensure display change takes effect
+    }, 500); // Delay matches the transition duration (0.5s)
+});
+
     </script>
 
 <script>
