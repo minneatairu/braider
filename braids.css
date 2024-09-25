@@ -345,5 +345,5 @@ background: lime;
     cursor: pointer;
     border: 2px solid;
 }
-label{    font-family: "Kode Mono", monospace;
+label{    font-family: "Kode Mono", monospace;    font-size: 1.3rem;
 }
