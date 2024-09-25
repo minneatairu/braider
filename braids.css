@@ -49,7 +49,15 @@
     display: none; /* Initially hidden */
     z-index: 1000; /* Ensure it stays on top */
   }
-  
+
+/* Styling for the "X" close text */
+.close-text {
+    margin-left: 10px;
+    font-size: 1.2rem;
+    color: red;
+    cursor: pointer;
+  }
+    
 /* Custom checkbox */
 input[type="checkbox"] {
     /* Hide the default checkbox */

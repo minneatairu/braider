@@ -255,6 +255,7 @@ var gridSection = document.querySelector(".grid-section");
 var generateButton = document.querySelector(".submit-button");
 var textPromptForm = document.querySelector(".text-prompt-form");
 var printButton = document.getElementById("printButton"); // Print button
+var closePrintButton = document.getElementById("closePrintButton"); // Close button ("X")
 
 textPromptForm.addEventListener("submit", function(event) {
     event.preventDefault(); // Prevent the default form submission action
@@ -281,10 +282,17 @@ textPromptForm.addEventListener("submit", function(event) {
     }, 500); // Delay matches the transition duration (0.5s)
 });
 
-// Add event listener to the print button to trigger print function
+// Add event listener to the print button to trigger the print function
 printButton.addEventListener("click", function() {
     window.print(); // Trigger the print dialog
 });
+
+// Add event listener for the close "X" to hide the print button
+closePrintButton.addEventListener("click", function(event) {
+    event.stopPropagation(); // Prevent the print function from being triggered when clicking "X"
+    printButton.style.display = "none"; // Hide the print button when "X" is clicked
+});
+
 
 
     </script>
