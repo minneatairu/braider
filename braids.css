@@ -261,16 +261,9 @@ box-sizing: border-box;
 
 .title-section {
     border: 3px solid;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px; /* Padding for space around the title */
-    overflow: hidden; /* Ensure content stays within bounds */
-    text-align: center;
-    margin: 10px 10px 0 10px;
+
     box-sizing: border-box;
-    height: 100px; /* Fixed height to ensure consistency */
-    position: relative; /* Required for the scrolling effect */
+    position: relative; border-bottom: none;
 }
 
 .title-wrapper {
