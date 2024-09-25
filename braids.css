@@ -38,7 +38,7 @@ button {
     border: none;
     cursor: pointer;
 }
-
+video{margin: 0 10px;}
 /* Video Container */
 .video-container {
     position: relative;
