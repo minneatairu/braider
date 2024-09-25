@@ -117,7 +117,7 @@ h2 {
     text-transform: uppercase;
     line-height: 1;
     z-index: 50;
-    border: 2px solid;
+    border: 2px solid;text-align: center;
     margin: 0 10px;
     border-bottom: none;     display: flex; /* Use flexbox to distribute space between buttons */
     justify-content: space-between; /* Evenly space the buttons */
