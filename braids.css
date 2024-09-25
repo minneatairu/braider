@@ -26,7 +26,7 @@ html {
 }
 
 .chattext {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-block-start: 0;
     margin-block-end: 0;
     font-family: "Kode Mono", monospace;
@@ -142,7 +142,7 @@ h2 {
 
 
 .parastyle {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     line-height: 1;
     text-align: justify;
     font-family: "Kode Mono", monospace;
