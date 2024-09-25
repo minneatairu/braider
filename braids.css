@@ -311,10 +311,12 @@ video {
 .title-section {
     border: 2px solid;
     margin: 10px 10px 0 10px;
-    box-sizing: border-box;
-    position: relative;
+
+        overflow: hidden;
+        white-space: nowrap;
+    
     border-bottom: none;
-    overflow: hidden; 
+
 }
 
 .title-wrapper {
