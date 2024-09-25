@@ -346,7 +346,10 @@ span.material-symbols-outlined {
     z-index: 10;
 }
 
-
+.print-button.show {
+    opacity: 1;
+    visibility: visible; /* Button becomes visible when opacity reaches 1 */
+  }
 
 /* Two-column grid layout */
 .modal-grid {

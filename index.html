@@ -271,14 +271,15 @@ textPromptForm.addEventListener("submit", function(event) {
 
     // Wait for the fade-out to finish before hiding the video and showing the grid
     setTimeout(function() {
-        videoContainer.style.display = "none"; 
-        gridSection.style.display = "grid"; 
+        videoContainer.style.display = "none"; // Hide the video container
+        gridSection.style.display = "grid"; // Show the grid section
         setTimeout(function() {
-            gridSection.style.opacity = "1"; 
+            gridSection.style.opacity = "1"; // Fade in the grid section
 
-            printButton.classList.add("show"); 
-        }, 50); 
-    }, 500); 
+            // Show the "Print Braids" button smoothly
+            printButton.classList.add("show"); // Add the class to show the button smoothly
+        }, 50); // Delay to ensure display change takes effect
+    }, 500); // Delay matches the transition duration (0.5s)
 });
 
 // Add event listener to the print button to trigger the print function
@@ -286,11 +287,14 @@ printButton.addEventListener("click", function() {
     window.print(); // Trigger the print dialog
 });
 
-// Add event listener for the close "X" to hide the print button
+// Add event listener for the close "X" to hide the print button smoothly
 closePrintButton.addEventListener("click", function(event) {
     event.stopPropagation(); // Prevent the print function from being triggered when clicking "X"
-    printButton.style.display = "none"; // Hide the print button when "X" is clicked
+
+    // Hide the print button smoothly
+    printButton.classList.remove("show");
 });
+
 
 
 
