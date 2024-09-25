@@ -17,7 +17,7 @@
 @media print {
     /* Hide elements that shouldn't appear in the print */
     .print-button,
-    .button-section,
+    div.button-section,
     .text-prompt-form,
     .video-container {
       display: none !important;
