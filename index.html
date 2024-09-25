@@ -215,6 +215,20 @@
         }
     </script>
 
+<script>
+    var video = document.getElementById("customVideo");
+    var playButton = document.getElementById("playButton");
+    var pauseButton = document.getElementById("pauseButton");
+
+    playButton.onclick = function () {
+        video.play();
+    }
+
+    pauseButton.onclick = function () {
+        video.pause();
+    }
+</script>
+
 </body>
 
 </html>
