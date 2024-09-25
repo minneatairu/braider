@@ -25,8 +25,8 @@
     }
   /* Adjust grid styles for printing */
   .grid-section {
-    grid-template-columns: repeat(2, 1fr); /* Optional: Change grid to 2 columns for print */
-    gap: 10px; /* Adjust gap if needed */
+    grid-template-columns: repeat(2, 1fr)!important;
+
   }
 
 
