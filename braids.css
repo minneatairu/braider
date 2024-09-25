@@ -309,14 +309,14 @@ z-index: 90;
     top: 20px;
     right: 20px;
     padding: 10px 20px;
-    background-color: black;
-    color: white;
+    background-color: lime;
+    color: black;
     border: none;
-    border-radius: 5px;
+    border-radius: 50%;
     font-size: 1.2rem;
     cursor: pointer;
     display: none; /* Initially hidden */
-    z-index: 1000; /* Ensure it stays on top */
+    z-index: 1000;border:2px solid
   }
   
   .print-button:hover {
