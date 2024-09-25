@@ -35,7 +35,21 @@
         display: block;
     }
 }
-
+.close-print-button {
+    position: fixed;
+    top: 20px;
+    right: 120px; /* Adjust position to the left of the print button */
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: none; /* Initially hidden */
+    z-index: 1000; /* Ensure it stays on top */
+  }
+  
 /* Custom checkbox */
 input[type="checkbox"] {
     /* Hide the default checkbox */
