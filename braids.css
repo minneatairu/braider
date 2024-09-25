@@ -18,7 +18,7 @@
     /* Hide elements that shouldn't appear in the print */
     .print-button,
     div.button-section,
-    .text-prompt-form,
+    form.text-prompt-form,
     .video-container {
       display: none !important;
     }
