@@ -66,13 +66,14 @@ h2{font-size: 3rem;}
 }
 
 .button-section {
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-    z-index: 10;
-    border: 3px solid;
-    margin: 0 10px;
-    border-bottom: 0;
+    font-size: 3rem;
+    color: black;
+    cursor: pointer;
+    font-family: "DuFont", serif;
+    background: none;
+    text-transform: uppercase;
+    line-height: 1;
+    padding-top: 10px;
 }
 
 .button-section button {
