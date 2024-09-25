@@ -83,22 +83,21 @@
                         data. I do not currently accept synthetic data. All image submissions are analyzed to verify
                         their origin.
                     </p>
+                    <div style="display: flex; align-items: center;padding: 20px 0">
+                        <input type="checkbox" id="agreement" name="agreement" required>
+                        <label for="agreement" style="font-size: 1.2rem; margin-left: 5px;">Yes, finetune Da Braidr's vision model with my braid.</label>
+                    </div>
                 </div>
                 <div class="modal-column">
-                    <form style="text-align: center;     text-align: center;
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;">
+                    <form style="text-align: center; display: flex; flex-direction: column; align-items: center;">
                         <input type="file" id="file-upload" name="file-upload" accept="image/*" class="file-upload" onchange="this.nextElementSibling.innerText = this.files[0].name">
                         <label for="file-upload" class="upload-button">Drag & Drop braid here<br> (PNG/JPG/WEBP)</label>
-                     <br>
-                        <div style="display: flex; align-items: center;padding: 20px 0">
-                            <input type="checkbox" id="agreement" name="agreement" required>
-                            <label for="agreement" style="font-size: 1.2rem; margin-left: 5px;">Yes, finetune Da Braidr's vision model with my braid.</label>
-                        </div>
-                      <br>
+                        <br>
+             
+                        <br>
                         <button type="submit" class="submit-button" style="font-size: 3rem; line-height: 1; padding-top: 10px; border: 2px solid;">SUBMIT</button>
                     </form>
+                    
                 </div>
             </div>
         </div>
@@ -115,18 +114,14 @@
     </div>
 
     <!-- Text Prompt Section -->
-    <form style="text-align: center; display: flex; flex-direction: column; align-items: center;">
-        <input type="file" id="file-upload" name="file-upload" accept="image/*" class="file-upload" onchange="this.nextElementSibling.innerText = this.files[0].name">
-        <label for="file-upload" class="upload-button">Drag & Drop braid here<br> (PNG/JPG/WEBP)</label>
-        <br>
-        <div style="display: flex; align-items: center;padding: 20px 0">
-            <input type="checkbox" id="agreement" name="agreement" required>
-            <label for="agreement" style="font-size: 1.2rem; margin-left: 5px;">Yes, finetune Da Braidr's vision model with my braid.</label>
-        </div>
-        <br>
-        <button type="submit" class="submit-button" style="font-size: 3rem; line-height: 1; padding-top: 10px; border: 2px solid;">SUBMIT</button>
+    <form class="text-prompt-form">
+        <input type="text" id="textprompt" name="textprompt" placeholder="DESCRIBE YOUR BRAIDS">
+        <!-- Submit Button with Google Icon -->
+        <button type="submit" class="submit-button" STYLE="
+        FONT-SIZE: 3REM;
+        BORDER-LEFT: 2px SOLID;">
+            GENERATE </button>
     </form>
-    
            <!-- Custom Video Player -->
            <div class="video-container">
             <video id="customVideo" width="100%" preload="metadata" autoplay muted loop>
