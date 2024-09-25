@@ -314,20 +314,22 @@ video {
     box-sizing: border-box;
     position: relative;
     border-bottom: none;
+    overflow: hidden; 
 }
 
 .title-wrapper {
-    height: 8vw
+    height: 8vw;    display: inline-block;
+    white-space: nowrap;
 }
 
 .title {
     font-size: 9vw;
-    line-height: 1.1;
+    line-height: 1.1;  animation: scroll 10s linear infinite; 
 
 }
 
 /* Infinite scrolling animation */
-@keyframes scroll-left {
+@keyframes scroll{
     0% {transform: translateX(0%);}
     100% {transform: translateX(-50%);}
 }
