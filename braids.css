@@ -45,8 +45,8 @@ button {
     background-color: lime;
     color: black;
     font-family: "DuFont", serif;
-
-
+    padding-top: 7px;
+text-transform: uppercase;
     border: 3px solid;
     cursor: pointer;
     font-size: 2rem;
