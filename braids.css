@@ -56,7 +56,7 @@ button {
 .video-controls button:hover {
     background-color: #0056b3;
 }
-
+button{font-family:    "DuFont", serif;}
 h2{font-size: 3rem;}
 .material-symbols-outlined {
     font-size: 3rem !important;
