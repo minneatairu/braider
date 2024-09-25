@@ -271,10 +271,10 @@ box-sizing: border-box;
     position: relative; border-bottom: none;
 }
 
-
+.title-wrapper{height:7.1vw}
 
 .title {
-    font-size: 10vw;
+    font-size: 9vw;
     line-height: 1;
 
 }
