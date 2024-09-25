@@ -147,7 +147,7 @@ h2 {
     width: 100%;
     overflow: auto;
     height: 100%;  opacity: 0;
-    transform: scale(0.9);
+   
     transition: opacity 0.4s ease, transform 0.4s ease;
 
 }
@@ -155,7 +155,7 @@ h2 {
 .modal.show {
     display: flex; /* Change from none to flex */
     opacity: 1;
-    transform: scale(1);
+
   }
 .callbraid {
     font-size: 3rem;
@@ -257,7 +257,7 @@ span.material-symbols-outlined {
     bottom: 20px;
     width: 30%;
     z-index: 2; opacity: 0;
-    transform: scale(0.9);
+
     transition: opacity 0.4s ease, transform 0.4s ease;
 }
 
