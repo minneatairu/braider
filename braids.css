@@ -67,6 +67,9 @@ h2 {
     font-size: 4rem;
     line-height: 0.8;
     text-align: justify;
+    margin-block-start: 0;
+    margin-block-end: 0;
+
 }
 
 .material-symbols-outlined {
