@@ -57,7 +57,7 @@ button {
     background-color: #0056b3;
 }
 button{font-family:    "DuFont", serif;}
-h2{font-size: 3rem;}
+h2{font-size: 3rem;line-height: .8;}
 .material-symbols-outlined {
     font-size: 3rem !important;
 }
