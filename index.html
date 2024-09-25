@@ -276,8 +276,8 @@ textPromptForm.addEventListener("submit", function(event) {
         setTimeout(function() {
             gridSection.style.opacity = "1"; // Fade in the grid section
 
-            // Show the "Print Braids" button smoothly
-            printButton.classList.add("show"); // Add the class to show the button smoothly
+            // Show the "Print Braids" button
+            printButton.style.display = "block"; // Make the print button visible
         }, 50); // Delay to ensure display change takes effect
     }, 500); // Delay matches the transition duration (0.5s)
 });
@@ -287,14 +287,11 @@ printButton.addEventListener("click", function() {
     window.print(); // Trigger the print dialog
 });
 
-// Add event listener for the close "X" to hide the print button smoothly
+// Add event listener for the close "X" to hide the print button
 closePrintButton.addEventListener("click", function(event) {
     event.stopPropagation(); // Prevent the print function from being triggered when clicking "X"
-
-    // Hide the print button smoothly
-    printButton.classList.remove("show");
+    printButton.style.display = "none"; // Hide the print button when "X" is clicked
 });
-
 
 
 
