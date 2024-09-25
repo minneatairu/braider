@@ -127,50 +127,55 @@
     </div>
     </div>
   <!-- JavaScript for Modal Functionality -->
-    <script>
-        var modal = document.getElementById("myModal");
-        var openModalBtn = document.getElementById("openModalBtn");
-        var closeModalBtn = document.getElementById("closeModalBtn");
+  <script>
+    var modal = document.getElementById("myModal");
+    var openModalBtn = document.getElementById("openModalBtn");
+    var closeModalBtn = document.getElementById("closeModalBtn");
 
-        var titleModal = document.getElementById("bottomRightModal");
-        var openTitleModalBtn = document.getElementById("openTitleModal");
-        var closeBottomRightModalBtn = document.getElementById("closeBottomRightModalBtn");
+    var shareModal = document.getElementById("shareModal"); // New modal
+    var openShareModalBtn = document.getElementById("openShareModal"); // New button
+    var closeShareModalBtn = document.getElementById("closeShareModal"); // Close button for new modal
 
-        openModalBtn.onclick = function () {
-            modal.style.display = "block";
-        }
+    var titleModal = document.getElementById("bottomRightModal");
+    var openTitleModalBtn = document.getElementById("openTitleModal");
+    var closeBottomRightModalBtn = document.getElementById("closeBottomRightModalBtn");
 
-        closeModalBtn.onclick = function () {
+    // Open and close the Info modal
+    openModalBtn.onclick = function () {
+        modal.style.display = "block";
+    }
+
+    closeModalBtn.onclick = function () {
+        modal.style.display = "none";
+    }
+
+    // Open and close the "Share ur Data" modal
+    openShareModalBtn.onclick = function () {
+        shareModal.style.display = "block";
+    }
+
+    closeShareModalBtn.onclick = function () {
+        shareModal.style.display = "none";
+    }
+
+    // Open and close the bottom-right modal
+    openTitleModalBtn.onclick = function () {
+        titleModal.style.display = "block";
+    }
+
+    closeBottomRightModalBtn.onclick = function () {
+        titleModal.style.display = "none";
+    }
+
+    // Close modals if clicking outside them
+    window.onclick = function (event) {
+        if (event.target == modal) {
             modal.style.display = "none";
+        } else if (event.target == shareModal) {
+            shareModal.style.display = "none";
         }
-
-        openTitleModalBtn.onclick = function () {
-            titleModal.style.display = "block";
-        }
-
-        closeBottomRightModalBtn.onclick = function () {
-            titleModal.style.display = "none";
-        }
-
-        window.onclick = function (event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
-            }
-        }
-    </script>
-    <script>
-        var video = document.getElementById("customVideo");
-        var playButton = document.getElementById("playButton");
-        var pauseButton = document.getElementById("pauseButton");
-    
-        playButton.onclick = function () {
-            video.play();
-        }
-    
-        pauseButton.onclick = function () {
-            video.pause();
-        }
-    </script>
+    }
+</script>
     
 </body>
 
