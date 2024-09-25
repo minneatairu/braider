@@ -55,7 +55,7 @@ input[type="checkbox"] {
     display: inline-block;
     text-align: center;
     font-size: 14px;
-  
+  padding-left: 2PX;
   }
   
 
