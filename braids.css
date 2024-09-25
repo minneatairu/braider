@@ -217,7 +217,7 @@ h2 {
     position: relative;
     width: 100%;
 }
-
+button.submit-button{width: 100%;}
 /* Align the form inputs in a row */
 .text-prompt-form {
     display: flex;
