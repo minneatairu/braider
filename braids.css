@@ -148,7 +148,7 @@ border:3px solid
       border: none;background: transparent;
       font-size: 3rem;
       line-height: 1;
-      font-family: "DuFont", serif;
+      font-family: "DuFont", serif;margin-bottom: -10px;
 }
 
 .text-prompt-form input[type="submit"] {
