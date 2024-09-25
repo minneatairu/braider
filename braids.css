@@ -1,14 +1,16 @@
 /* Load custom font using @font-face */
 @font-face {
     font-family: 'DuFont';
-    src: url('bold.ttf') format('truetype'); /* Corrected 'ttf' format to 'truetype' */
+    src: url('bold.ttf') format('truetype');
+    /* Corrected 'ttf' format to 'truetype' */
 
 }
 
 /* Second Font Face (Regular) */
 @font-face {
     font-family: 'DuFontRegular';
-    src: url('reg.ttf') format('truetype'); /* Added the second font */
+    src: url('reg.ttf') format('truetype');
+    /* Added the second font */
 
 }
 
@@ -22,13 +24,17 @@ html {
     display: flex;
     flex-direction: column;
 }
-.chattext{font-size: 2rem;}
+
+.chattext {
+    font-size: 2rem;
+}
 
 button {
     background: transparent;
     border: none;
     cursor: pointer;
 }
+
 /* Video Container */
 .video-container {
     position: relative;
@@ -46,15 +52,23 @@ button {
     color: black;
     font-family: "DuFont", serif;
     padding-top: 7px;
-text-transform: uppercase;
+    text-transform: uppercase;
     border: 3px solid;
     cursor: pointer;
     font-size: 2rem;
 }
 
 
-button{font-family:    "DuFont", serif;}
-h2{font-size: 3rem;line-height: .8;}
+button {
+    font-family: "DuFont", serif;
+}
+
+h2 {
+    font-size: 4rem;
+    line-height: 0.8;
+    text-align: justify;
+}
+
 .material-symbols-outlined {
     font-size: 3rem !important;
 }
@@ -67,7 +81,7 @@ h2{font-size: 3rem;line-height: .8;}
     background: none;
     text-transform: uppercase;
     line-height: 1;
-  z-index: 50;
+    z-index: 50;
     border: 3px solid;
     margin: 0 10px;
     border-bottom: none
@@ -106,8 +120,7 @@ h2{font-size: 3rem;line-height: .8;}
 .modal-content {
     position: relative;
     background-color: white;
-border:3px solid
-
+    border: 3px solid
 }
 
 /* Close button (X) */
@@ -125,10 +138,13 @@ border:3px solid
 .parastyle {
     font-size: 3rem;
     line-height: 1;
-    text-align: justify;font-family: 'DuFontRegular', sans-serif;
+    text-align: justify;
+    font-family: 'DuFontRegular', sans-serif;
 }
 
-.modal-column{padding: 5rem;}
+.modal-column {
+    padding: 5rem;
+}
 
 .image-container {
     position: relative;
@@ -147,10 +163,12 @@ border:3px solid
 }
 
 .text-prompt-form input[type="text"] {
-      border: none;background: transparent;
-      font-size: 3rem;
-      line-height: 1;
-      font-family: "DuFont", serif;margin-bottom: -10px;
+    border: none;
+    background: transparent;
+    font-size: 3rem;
+    line-height: 1;
+    font-family: "DuFont", serif;
+    margin-bottom: -10px;
 }
 
 .text-prompt-form input[type="submit"] {
@@ -161,7 +179,7 @@ border:3px solid
     color: black;
     cursor: pointer;
     background: lime;
-  
+
 }
 
 
@@ -176,27 +194,38 @@ border:3px solid
         transform: rotate(360deg);
     }
 }
-span.material-symbols-outlined{font-weight: 900;}
+
+span.material-symbols-outlined {
+    font-weight: 900;
+}
+
 /* Bottom Right Modal */
 .bottom-right-modal {
     display: none;
     position: fixed;
     right: 20px;
-    bottom: 20px;width: 30%;
+    bottom: 20px;
+    width: 30%;
     z-index: 2;
 }
 
 .bottom-right-modal-content {
     background-color: lime;
-    padding: 5rem;border:3px solid
-
+    padding: 5rem;
+    border: 3px solid
 }
-video{border:3px solid}
+
+video {
+    border: 3px solid
+}
+
 /* Two-column grid layout */
 .modal-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+    grid-template-columns: repeat(2, 1fr);
+    /* Two equal columns */
 }
+
 .overlay-text {
     position: absolute;
     line-height: 1;
@@ -209,14 +238,17 @@ video{border:3px solid}
     text-transform: uppercase;
     border: 3px solid;
     background: lime;
-    transition: transform 0.5s ease; /* Smooth transition when spinning starts */
+    transition: transform 0.5s ease;
+    /* Smooth transition when spinning starts */
 
 
 }
+
 /* The spinning will be triggered when hovering over the image-container */
 .image-container:hover .overlay-text {
     animation: spin 5s linear infinite;
 }
+
 .image-container {
     position: relative;
     width: 100%;
@@ -225,15 +257,15 @@ video{border:3px solid}
 .grid-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-row-gap: 4px;
-    padding:0 10px;
+    row-gap: 4px;
+    padding: 0 10px;
 }
 
 .grid-section img {
     width: 100%;
     height: auto;
     object-fit: cover;
-box-sizing: border-box;
+    box-sizing: border-box;
     border: 3px solid;
 }
 
@@ -265,10 +297,13 @@ box-sizing: border-box;
     border: 3px solid;
     margin: 10px 10px 0 10px;
     box-sizing: border-box;
-    position: relative; border-bottom: none;
+    position: relative;
+    border-bottom: none;
 }
 
-.title-wrapper{height:7.1vw}
+.title-wrapper {
+    height: 7.1vw
+}
 
 .title {
     font-size: 9vw;
@@ -279,10 +314,12 @@ box-sizing: border-box;
 /* Infinite scrolling animation */
 @keyframes scroll-left {
     0% {
-        transform: translateX(0); /* Start fully visible */
+        transform: translateX(0);
+        /* Start fully visible */
     }
 
     100% {
-        transform: translateX(-100%); /* End where the second text starts */
+        transform: translateX(-100%);
+        /* End where the second text starts */
     }
 }
