@@ -38,8 +38,7 @@ button {
     border: none;
     cursor: pointer;
 }
-video{margin: 0 10px;}
-/* Video Container */
+
 .video-container {
     position: relative;
     margin: 0 10px;
@@ -232,9 +231,7 @@ span.material-symbols-outlined {
     border: 2px solid
 }
 
-video {
-    border: 2px solid
-}
+
 
 /* Two-column grid layout */
 .modal-grid {
