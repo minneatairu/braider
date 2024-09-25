@@ -347,3 +347,36 @@ background: lime;
 }
 label{    font-family: "Kode Mono", monospace;    font-size: 1.3rem;
 }
+.custom-checkbox {
+    display: none; /* Hide the default checkbox */
+}
+
+.checkbox-label {
+    width: 50px;
+    height: 50px;
+    background-color: lime; /* Lime background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px; /* Optional: Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    position: relative;
+}
+
+.checkbox-label::after {
+    content: '';
+    width: 25px; /* Size of the checkmark */
+    height: 25px;
+    background-color: transparent; /* Checkmark background */
+    border: 2px solid white; /* Checkmark border color */
+    border-radius: 3px; /* Optional: Rounded corners for the checkmark */
+    position: absolute;
+    left: 12.5px; /* Center the checkmark */
+    top: 12.5px; /* Center the checkmark */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Transition effect */
+}
+
+.custom-checkbox:checked + .checkbox-label::after {
+    opacity: 1; /* Show checkmark when checked */
+}
