@@ -121,7 +121,7 @@ h2 {
     height: 100%;
 
 }
-.callbraid{font-size: 3rem;margin: 0 10px;border-left: 2px solid;border-right: 2px solid;}
+.callbraid{font-size: 3rem;margin: 0 10px;border-bottom: none;border: 2px solid;}
 /* Modal Content */
 
 .modal-content {
