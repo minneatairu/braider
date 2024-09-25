@@ -13,6 +13,22 @@
     /* Added the second font */
 
 }
+
+@media print {
+    /* Hide elements that shouldn't appear in the print */
+    .print-button,
+    .button-section,
+    .text-prompt-form,
+    .video-container {
+      display: none !important;
+    }
+  
+    /* Ensure only the grid section and title are visible */
+    .title-section,
+    .grid-section {
+      display: block;
+    }
+}  
 /* Custom checkbox */
 input[type="checkbox"] {
     /* Hide the default checkbox */
