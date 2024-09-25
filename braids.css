@@ -437,6 +437,8 @@ span.material-symbols-outlined {
         padding-bottom: 12.5vw;}
         .title {
             font-size: 14vw;}
+            .button-section button {
+                font-size: 2rem;    border-bottom: 2px solid;}
 }
 
 /* Media query for mobile */
