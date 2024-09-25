@@ -352,7 +352,7 @@ span.material-symbols-outlined {
 .modal-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* Two equal columns */
+    height: 100%;
 }
 
 .overlay-text {
