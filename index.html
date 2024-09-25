@@ -49,12 +49,7 @@
             </div>
 
             <div class="modal-column">
-                <h2>WHAT IS DA BRAIDR?</h2>
-         
-         
-         
-       
-                 <h2>   TECHNICAL DESCRIPTION</h2>
+         <h2>   TECHNICAL DESCRIPTION</h2>
                     <p class="parastyle">
                     Da Braidr leverages the vision-language capabilities of OpenAI models, fine-tuned specifically for the
                     task of braid pattern recognition. The system's vision model is fine-tuned using
@@ -67,6 +62,23 @@
         </div>
     </div>
 </div>
+   <!-- Share Modal (New Modal for "Share ur Data") -->
+   <div id="shareModal" class="modal">
+    <div class="modal-content">
+        <span class="close" id="closeShareModal">X</span>
+        <h2>Share Your Data</h2>
+        <p class="parastyle">
+            You are invited to contribute to Da Braidr’s research by sharing your braid images or other relevant data. Please upload your data here to help enhance our dataset and improve braid pattern recognition.
+        </p>
+        <form>
+            <label for="file-upload" class="parastyle">Upload your data:</label>
+            <input type="file" id="file-upload" name="file-upload" accept="image/*">
+            <br><br>
+            <button type="submit" class="submit-button">Submit Data</button>
+        </form>
+    </div>
+</div>
+
 
        <!-- Modal for the bottom right corner -->
        <div id="bottomRightModal" class="bottom-right-modal">
