@@ -22,7 +22,7 @@
     .video-container {
       display: none !important;
     }
-    .overlay-text{font-size: 1rem;}
+    .overlay-text{font-size: .5rem;}
     /* Ensure only the grid section and title are visible */
     .title-section,
     .grid-section {
