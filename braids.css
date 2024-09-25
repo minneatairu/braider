@@ -328,3 +328,20 @@ z-index: 90;
     0% {transform: translateX(0%);}
     100% {transform: translateX(-50%);}
 }
+.file-upload {
+    display: none; /* Hide the default file input */
+}
+
+.upload-button {
+    width: 100px; /* Set the width of the circle */
+    height: 100px; /* Set the height of the circle */
+    border-radius: 50%; /* Make it circular */
+    background-color: #4CAF50; /* Change to desired color */
+    color: white; /* Text color */
+    font-size: 1.5rem; /* Font size */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer; /* Pointer on hover */
+    border: 2px solid #4CAF50; /* Border color */
+}

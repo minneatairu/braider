@@ -15,7 +15,8 @@
     <!-- Fullscreen Title Section -->
     <div class="title-section">
         <div class="title-wrapper">
-            <span class="title">DA BRAIDR DA BRAIDR DA BRAIDR DA BRAIDR DA BRAIDR DA BRAIDR DA BRAIDR DA BRAIDR DA BRAIDR DA BRAIDR DA BRAIDR DA BRAIDR DA BRAIDR DA BRAIDR </span>
+            <span class="title">DA BRAIDR DA BRAIDR DA BRAIDR DA BRAIDR DA BRAIDR DA BRAIDR DA BRAIDR DA BRAIDR DA
+                BRAIDR DA BRAIDR DA BRAIDR DA BRAIDR DA BRAIDR DA BRAIDR </span>
         </div>
     </div>
 
@@ -26,7 +27,7 @@
         <button id="openShareModal">Share ur Data</button>
 
     </div>
-        <!-- Call Section -->
+    <!-- Call Section -->
     <!-- Modal -->
     <div id="myModal" class="modal">
         <div class="modal-content">
@@ -70,26 +71,28 @@
     </div>
     <!-- Share Modal (New Modal for "Share ur Data") -->
     <div id="shareModal" class="modal">
-        <div class="modal-content">                <span class="close" id="closeShareModal">X</span>
+        <div class="modal-content"> <span class="close" id="closeShareModal">X</span>
 
             <div class="modal-grid">
-            <div class="modal-column" style="border-right: 2px solid;">
-        
-            <h2>OPT-IN UR BRAIDS DATA</h2>
-            <p class="parastyle">
-              Given new human-generated image data submissions,  Da Braidr undergoes finetuning bi-monthly.
-                To enrich the dataset, I have created a portal to receive human-contributed, real-world image data. I do not currently accept synthetic data. All image submissions are analyzed to verify their origin.
-            </p>
+                <div class="modal-column" style="border-right: 2px solid;">
+
+                    <h2>OPT-IN UR BRAIDS DATA</h2>
+                    <p class="parastyle">
+                        Given new human-generated image data submissions, Da Braidr undergoes finetuning bi-monthly.
+                        To enrich the dataset, I have created a portal to receive human-contributed, real-world image
+                        data. I do not currently accept synthetic data. All image submissions are analyzed to verify
+                        their origin.
+                    </p>
+                </div>
+                <div class="modal-column">
+                    <form style="text-align: center;">
+                        <input type="file" id="file-upload" name="file-upload" accept="image/*" class="file-upload" onchange="this.nextElementSibling.innerText = this.files[0].name">
+                        <label for="file-upload" class="upload-button">Upload</label>
+                        <br><br>
+                        <button type="submit" class="submit-button" style="font-size: 3rem; line-height: 1; padding-top: 10px; border: 2px solid;">SUBMIT</button>
+                    </form>
+                </div>
             </div>
-            <div class="modal-column">
-            <form>
-                <input type="file" id="file-upload" name="file-upload" accept="image/*">
-                <br><br>
-                <button type="submit" class="submit-button" style="    FONT-SIZE: 3rem;    line-height: 1;
-    padding-top: 10px;
-    border: 2px solid;">SUBMIT</button>
-            </form>
-            </div></div>
         </div>
     </div>
 
