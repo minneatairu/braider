@@ -333,8 +333,8 @@ z-index: 90;
 }
 
 .upload-button {
-    width: 400px;
-    height: 400px;
+    width: 40vw;
+    height: 40vw;
     border-radius: 50%;
     font-family: "Kode Mono", monospace;
 
