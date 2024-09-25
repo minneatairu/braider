@@ -432,8 +432,11 @@ span.material-symbols-outlined {
     .grid-section {
         grid-template-columns: repeat(2, 1fr);
     }
-
-
+    .button-section{display: block;}
+    .title-section{
+        padding-bottom: 12.5vw;}
+        .title {
+            font-size: 14vw;}
 }
 
 /* Media query for mobile */
