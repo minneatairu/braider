@@ -138,10 +138,10 @@ h2 {
 
 
 .parastyle {
-    font-size: 3rem;
+    font-size: 1.5rem;
     line-height: 1;
     text-align: justify;
-    font-family: 'DuFontRegular', sans-serif;
+    font-family: "Kode Mono", monospace;
 }
 
 .modal-column {
