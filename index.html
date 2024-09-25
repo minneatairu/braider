@@ -132,8 +132,9 @@
             <!-- Custom Play and Pause Buttons -->
             <div class="video-controls">
          
-<button id="muteButton">Unmute</button>
-
+                <button id="muteButton" class="mute-button">
+                    <span class="material-symbols-outlined">volume_off</span>
+                </button>
             </div>
         </div>
     <!-- Grid Section -->
@@ -217,28 +218,20 @@
     </script>
 
 <script>
-    var video = document.getElementById("customVideo");
-    var playButton = document.getElementById("playButton");
-    var pauseButton = document.getElementById("pauseButton");
-    var muteButton = document.getElementById("muteButton");
+var video = document.getElementById("customVideo");
+var muteButton = document.getElementById("muteButton");
+var muteIcon = muteButton.querySelector(".material-symbols-outlined");
 
-    playButton.onclick = function () {
-        video.play();
-    }
-
-    pauseButton.onclick = function () {
-        video.pause();
-    }
-
-    muteButton.onclick = function () {
+muteButton.onclick = function () {
     if (video.muted) {
         video.muted = false;
-        muteButton.textContent = "Mute";
+        muteIcon.textContent = "volume_up";
     } else {
         video.muted = true;
-        muteButton.textContent = "Unmute";
+        muteIcon.textContent = "volume_off";
     }
 }
+
 </script>
 
 
