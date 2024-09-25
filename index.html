@@ -125,7 +125,7 @@
     </form>
            <!-- Custom Video Player -->
            <div class="video-container">
-            <video id="customVideo" width="100%" preload="metadata">
+            <video id="customVideo" width="100%" preload="metadata" autoplay muted controls>
                 <source src="v.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -133,6 +133,8 @@
             <div class="video-controls">
                 <button id="playButton">Play</button>
                 <button id="pauseButton">Pause</button>
+<button id="muteButton">Unmute</button>
+
             </div>
         </div>
     <!-- Grid Section -->
@@ -219,6 +221,7 @@
     var video = document.getElementById("customVideo");
     var playButton = document.getElementById("playButton");
     var pauseButton = document.getElementById("pauseButton");
+    var muteButton = document.getElementById("muteButton");
 
     playButton.onclick = function () {
         video.play();
@@ -227,7 +230,18 @@
     pauseButton.onclick = function () {
         video.pause();
     }
+
+    muteButton.onclick = function () {
+    if (video.muted) {
+        video.muted = false;
+        muteButton.textContent = "Mute";
+    } else {
+        video.muted = true;
+        muteButton.textContent = "Unmute";
+    }
+}
 </script>
+
 
 </body>
 
