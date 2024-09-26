@@ -13,11 +13,7 @@
     /* Added the second font */
 
 }
-.smiley{  font-family: "Yarndings 12", system-ui;color:yellow;
-font-size: 3rem;
 
-
-}
 @media print {
 
     /* Hide elements that shouldn't appear in the print */
