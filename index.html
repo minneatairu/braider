@@ -98,9 +98,14 @@
                     <form style="text-align: center; display: flex; flex-direction: column; align-items: center;">
                         <input type="file" id="file-upload" name="file-upload" accept="image/*" class="file-upload" onchange="this.nextElementSibling.innerText = this.files[0].name">
                         <label for="file-upload" class="upload-button">Drag & Drop braid here<br> (PNG/JPG/WEBP)</label>
-                        <br>
-             
-                        <br>
+                                  <!-- OR -->
+                    <p style="font-size: 1.5rem; margin: 20px 0;">OR</p>
+                    
+                    <!-- Option to Submit Image Link -->
+                    <h3>Submit Image Link</h3>
+                    <input type="url" id="image-link" name="image-link" placeholder="Paste image URL here" style="width: 100%; padding: 10px; font-size: 1.2rem; border: 1px solid; margin-bottom: 10px;">
+                       <!-- Submit Button -->
+                       <br>
                         <button type="submit" class="submit-button" style="font-size: 3rem; line-height: 1; padding-top: 10px; border: 2px solid;">SUBMIT</button>
                     </form>
                     
