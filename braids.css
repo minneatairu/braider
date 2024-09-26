@@ -501,8 +501,8 @@ span.material-symbols-outlined {
 }
 
 .upload-button {
-    width: 40vw;
-    height: 40vw;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     font-family: "Kode Mono", monospace;
     background: lime;
