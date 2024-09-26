@@ -166,7 +166,7 @@ h2 {
 .material-symbols-outlined {
     font-size: 3rem !important;
 }
-.braidtag{background: lime; border: 2px solid;}
+div.braidtag{background: lime; border: 2px solid;}
 .button-section {
     font-size: 3rem;
     color: black;
