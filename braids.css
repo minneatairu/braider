@@ -36,7 +36,7 @@ a {color: black; text-decoration: none;}
         display: block;
     }
 }
-
+ul {font-family: Kode Mono;}
 .close-print-button {
     position: fixed;
     top: 20px;
