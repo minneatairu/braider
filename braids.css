@@ -179,7 +179,14 @@ h2 {
     /* Evenly space the buttons */
     align-items: center;
 }
-
+::placeholder {
+    color:black;
+    opacity: 1; /* Firefox */
+  }
+  
+  ::-ms-input-placeholder { /* Edge 12 -18 */
+    color: black;
+  }
 .button-section button {
     font-size: 3rem;
     color: black;
