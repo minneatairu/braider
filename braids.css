@@ -205,7 +205,7 @@ h2 {
     overflow: auto;
     height: 100%;
     opacity: 0;
-
+background: white;border:2px solid;
     transition: opacity 0.4s ease, transform 0.4s ease;
 
 }
@@ -233,7 +233,7 @@ h2 {
 .modal-content {
     position: relative;
     background-color: white;
-    border: 2px solid
+  
 }
 
 /* Close button (X) */
