@@ -13,7 +13,7 @@
     /* Added the second font */
 
 }
-.smiley{  font-family: "Yarndings 12", system-ui;
+.smiley{  font-family: "Yarndings 12", system-ui;color:yellow
 }
 @media print {
 
