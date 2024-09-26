@@ -96,6 +96,15 @@
                 </div>
                 <div class="modal-column">
                     <form style="text-align: center; display: flex; flex-direction: column; align-items: center;">
+                                 <!-- User Name -->
+                    <h3>Your Name</h3>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required style="width: 100%; padding: 10px; font-size: 1.2rem; border: 1px solid; margin-bottom: 10px;">
+
+                    <!-- User Email -->
+                    <h3>Your Email</h3>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required style="width: 100%; padding: 10px; font-size: 1.2rem; border: 1px solid; margin-bottom: 20px;">
+
+                    
                         <input type="file" id="file-upload" name="file-upload" accept="image/*" class="file-upload" onchange="this.nextElementSibling.innerText = this.files[0].name">
                         <label for="file-upload" class="upload-button">Drag & Drop braid here<br> (PNG/JPG/WEBP)</label>
                                   <!-- OR -->
