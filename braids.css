@@ -187,6 +187,8 @@ h2 {
   ::-ms-input-placeholder { /* Edge 12 -18 */
     color: black;
   }
+
+  input#name.datasub,   input#email.datasub {background: lime;    font-family: "DuFont", serif;}
 .button-section button {
     font-size: 3rem;
     color: black;
