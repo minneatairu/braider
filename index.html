@@ -105,30 +105,39 @@
                         <input type="file" id="file-upload" name="file-upload" accept="image/*" class="file-upload" onchange="this.nextElementSibling.innerText = this.files[0].name">
                         <label for="file-upload" class="upload-button">Drag & Drop braid here<br> (PNG/JPG/WEBP)</label>
                                   <!-- OR -->
-                    <p style="font-size: 1.5rem; margin: 20px 0;">OR</p>
+                    <h2>OR</h2>
                     
                     <!-- Option to Submit Image Link -->
          
                     <input  class="datasub"  type="url" id="image-link" name="image-link" placeholder="Paste image URL here" style="width: 100%; padding: 10px; font-size: 1.2rem; border: 2px solid; margin-bottom: 10px; background: lime;">
                                <!-- Tags for Hairstyle Type -->
-                    <h3>Braid type</h3>
+                    <h2>Braid type</h2>
                     <div style="text-align: left; font-size: 1.2rem; padding: 10px;">
-                        <input type="checkbox" id="spiral" name="tags" value="spiral">
-                        <label for="spiral">Spiral</label><br>
+                        <div style="display: inline-block; background-color: #f0f0f0; padding: 10px; margin: 5px;">
+                            <input type="checkbox" id="spiral" name="tags" value="spiral">
+                            <label for="spiral">Spiral</label>
+                        </div>
                         
-                        <input type="checkbox" id="wavy" name="tags" value="wavy">
-                        <label for="wavy">Wavy</label><br>
+                        <div style="display: inline-block; background-color: #f0f0f0; padding: 10px; margin: 5px;">
+                            <input type="checkbox" id="wavy" name="tags" value="wavy">
+                            <label for="wavy">Wavy</label>
+                        </div>
                         
-                        <input type="checkbox" id="criss-cross" name="tags" value="criss-cross">
-                        <label for="criss-cross">Criss-cross</label><br>
+                        <div style="display: inline-block; background-color: #f0f0f0; padding: 10px; margin: 5px;">
+                            <input type="checkbox" id="criss-cross" name="tags" value="criss-cross">
+                            <label for="criss-cross">Criss-cross</label>
+                        </div>
                         
-                        <input type="checkbox" id="two-strand" name="tags" value="two-strand twist">
-                        <label for="two-strand">Two-strand twist</label><br>
+                        <div style="display: inline-block; background-color: #f0f0f0; padding: 10px; margin: 5px;">
+                            <input type="checkbox" id="two-strand" name="tags" value="two-strand twist">
+                            <label for="two-strand">Two-strand twist</label>
+                        </div>
                         
-                        <input type="checkbox" id="three-strand" name="tags" value="three-strand twist">
-                        <label for="three-strand">Three-strand twist</label>
+                        <div style="display: inline-block; background-color: #f0f0f0; padding: 10px; margin: 5px;">
+                            <input type="checkbox" id="three-strand" name="tags" value="three-strand twist">
+                            <label for="three-strand">Three-strand twist</label>
+                        </div>
                     </div>
-                    
                     
                     
                     <!-- Submit Button -->
