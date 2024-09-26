@@ -13,7 +13,16 @@
     /* Added the second font */
 
 }
-.smiley{  font-family: "Yarndings 12", system-ui;color:yellow
+.smiley{  font-family: "Yarndings 12", system-ui;color:yellow;
+
+    position: absolute;
+    top: 10px;
+    left: 10px;
+font-size: 3rem;
+    padding: 10px 20px;
+    border: none;
+    display: none; 
+    z-index: 10;
 }
 @media print {
 
