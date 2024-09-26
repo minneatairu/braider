@@ -200,7 +200,7 @@ h2 {
 
 input#name.datasub,
 input#email.datasub,
-input#url.datasub {
+input#image-link.datasub {
     background: lime;
     font-family: "Kode", serif;
     text-align: center;
