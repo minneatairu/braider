@@ -188,7 +188,7 @@ h2 {
     color: black;
   }
 
-  input#name.datasub,   input#email.datasub {background: lime;    font-family: "DuFont", serif;}
+  input#name.datasub,   input#email.datasub, input#url.datasub  {background: lime;    font-family: "DuFont", serif;text-align: center;}
 .button-section button {
     font-size: 3rem;
     color: black;
